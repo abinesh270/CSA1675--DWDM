@@ -1,0 +1,51 @@
+%% Arff created by Ayush V Nair 
+%% 1949-1960.
+
+@relation Number_dates
+@attribute Number numeric
+@attribute Date date 'yyyy-MM-dd'
+
+@data
+112,1949-01-01
+118,1949-02-01
+132,1949-03-01
+129,1949-04-01
+121,1949-05-01
+135,1949-06-01
+148,1949-07-01
+148,1949-08-01
+136,1949-09-01
+119,1949-10-01
+104,1949-11-01
+118,1949-12-01
+115,1950-01-01
+126,1950-02-01
+
+
+%% Subjects
+%% SIMATS School of Engineering
+
+@relation Subject_data 
+@attribute SI_no numeric
+@attribute Subject_name string
+@attribute Subject_faculty string
+@attribute Grade string
+@attribute Internal_Marks numeric
+
+@data
+1,Python,Sri_Remya,S,88
+2,C,Sri_Vindya,S,98
+3,Physics,Pugazhendi,B,75
+4,Mathematic,Seethalekshmi,A,92
+5,ComputerNetworks,Sherin,A,94
+6,ProfessionalEthics,Swaminathan,B,75
+7,Aptitude_Competency,Ashwin,B,72
+8,DBMS,Kanimozhi,A,92
+9,Java,Sri_Vindya,S,95
+10,C++,Ramaparvathy,A,97
+11,DWDM,TerrenceFedrick,S,85
+12,DicreteMaths,Kingsley,A,71
+13,CompilerDesign,Micheal,A,80
+14,AI,Sravanan,A,79
+15,DataStructures,Saraswathi,A,88
+
